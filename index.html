@@ -1,106 +1,165 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">Portfolio</a>
+            <nav>
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hi, I'm</h3>
+                <h1>John <span>Doe</span></h1>
+                <h3 class="typing-text">I am a <span></span></h3>
+                <p>
+                    Passionate developer with expertise in C++, C#, and game
+                    development. I love creating efficient solutions and
+                    learning new technologies to solve complex problems.
+                </p>
+                <div class="social-icons">
+                    <a href="#" aria-label="LinkedIn">📧</a>
+                    <a href="#" aria-label="GitHub">🐙</a>
+                    <a href="#" aria-label="Twitter">🐦</a>
+                </div>
+                <a href="#" class="btn">Download CV</a>
+            </div>
+        </section>
 
+        <section id="about">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>
+                    I'm a passionate developer currently studying game
+                    development with a strong foundation in multiple programming
+                    languages. My journey started with Unity and C#, but I've
+                    expanded my skills to include proper C++ development and web
+                    technologies.
+                </p>
+                <p>
+                    I believe in writing clean, efficient code and am always
+                    eager to learn new technologies. Whether it's optimizing
+                    game performance, building web applications, or tackling
+                    complex algorithms, I enjoy the challenge of turning ideas
+                    into reality.
+                </p>
+            </div>
+        </section>
 
+        <section id="experience">
+            <div class="experience-content">
+                <h2>Experience</h2>
+                <div class="experience-item">
+                    <h3>Game Development Student</h3>
+                    <h4>Current Institution | 2023 - Present</h4>
+                    <ul>
+                        <li>
+                            Developing games using Unity and C# with focus on
+                            clean architecture
+                        </li>
+                        <li>
+                            Learning C++ for performance-critical applications
+                            and Unreal Engine
+                        </li>
+                        <li>
+                            Building web portfolios from scratch using HTML,
+                            CSS, and JavaScript
+                        </li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h3>Personal Projects</h3>
+                    <h4>Self-Directed Learning | 2022 - Present</h4>
+                    <ul>
+                        <li>
+                            Transitioned from Unity's simplified C# to proper
+                            .NET development
+                        </li>
+                        <li>
+                            Mastered C++ fundamentals including memory
+                            management and OOP
+                        </li>
+                        <li>
+                            Created multiple web applications and portfolio
+                            sites
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-<section class="home">
-  <div class="home-content">
-    <h3>Hi, I'm</h3>
-    <h1>John Doe</h1>
-    <h3 class="typing-text">I am a <span></span></h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi odit obcaecati illum pariatur tempore dolores,
-      unde, cum modi, dolor iure dignissimos ex. Maiores iste delectus optio praesentium mollitia sed architecto?</p>
-    <div class="social-icons">
-      <a href="#"><img src="linkedin.ico" alt="LinkedIn"></a>
-      <a href="#"><img src="github.ico" alt="GitHub"></a>
-      <a href="#"><img src="twitter.ico" alt="Twitter"></a>
-    </div>
+        <section id="projects">
+            <div class="projects-content">
+                <h2>Projects</h2>
+                <div class="project-item">
+                    <h3>Custom Portfolio Website</h3>
+                    <p>
+                        Built from scratch using HTML5, CSS3, and vanilla
+                        JavaScript. Features responsive design, smooth
+                        animations, and clean minimal aesthetic. No frameworks
+                        or templates
+                    </p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <div class="project-item">
+                    <h3>Unity Game Projects</h3>
+                    <p>
+                        Various game development projects showcasing gameplay
+                        programming, UI design, and optimization techniques.
+                        Focus on clean code architecture and performance.
+                    </p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </section>
 
-    <a href="#" class="btn">Download CV</a>
-  </div>
-  <div class="home-img">
-  </div>
-</section>
+        <section id="contact">
+            <div class="contact-content">
+                <h2>Contact Me</h2>
+                <p>
+                    I'm always interested in discussing new opportunities,
+                    collaborating on projects, or just talking about code. Feel
+                    free to reach out!
+                </p>
+                <form action="#" method="POST">
+                    <input
+                        type="text"
+                        name="name"
+                        placeholder="Your Name"
+                        required
+                    />
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Your Email"
+                        required
+                    />
+                    <textarea
+                        name="message"
+                        placeholder="Your Message"
+                        rows="5"
+                        required
+                    ></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
 
-<section id="about">
-  <div class="about-content">
-    <h2>About Me</h2>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione commodi molestiae facilis officiis ipsa quo sit
-      laborum excepturi corrupti. Asperiores itaque molestias pariatur rerum placeat expedita optio labore iusto dicta..
-    </p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab commodi ut soluta excepturi corporis quidem
-      necessitatibus praesentium sed, qui recusandae expedita cupiditate ipsa cumque repellat rem accusamus! Mollitia,
-      earum voluptatum!</p>
-  </div>
-</section>
+        <footer>
+            <p>&copy; 2025 John Doe | All Rights Reserved</p>
+        </footer>
 
-<section id="experience">
-  <div class="experience-content">
-    <h2>Experience</h2>
-    <div class="experience-item">
-      <h3>Job Title 1</h3>
-      <h4>Company Name | Dates</h4>
-      <ul>
-        <li>Responsibility or achievement 1.</li>
-        <li>Responsibility or achievement 2.</li>
-        <li>Responsibility or achievement 3.</li>
-      </ul>
-    </div>
-    <div class="experience-item">
-      <h3>Job Title 2</h3>
-      <h4>Company Name | Dates</h4>
-      <ul>
-        <li>Responsibility or achievement 1.</li>
-        <li>Responsibility or achievement 2.</li>
-        <li>Responsibility or achievement 3.</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section id="projects">
-  <div class="projects-content">
-    <h2>Projects</h2>
-    <div class="project-item">
-      <h3>Project Title 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem deserunt natus nobis ipsum vitae magni
-        modi aspernatur? Voluptate debitis necessitatibus unde quam. Atque quae repellat nulla dolores blanditiis, nam
-        facere.</p>
-      <a href="#" class="btn">View Project</a>
-    </div>
-    <div class="project-item">
-      <h3>Project Title 2</h3>
-      <p>lorem ipsum dolor, sit amet</p>
-      <a href="#" class="btn">View Project</a>
-    </div>
-  </div>
-</section>
-
-<section id="contact">
-  <div class="contact-content">
-    <h2>Contact Me</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut harum dignissimos ab laborum aperiam eum, enim est
-      eos quos, tenetur iste nobis deleniti quas pariatur ipsam assumenda, nemo repudiandae provident.</p>
-    <form action="#" method="POST">
-      <input type="text" name="name" placeholder="Name" required>
-      <input type="email" name="email" placeholder="Email" required>
-      <textarea name="message" placeholder="Message" rows="5" required></textarea>
-      <button type="submit" class="btn">Send Message</button>
-    </form>
-  </div>
-</section>
-
-<footer>
-  <p>&copy; 2025 John Doe | All Rights Reserved.</p>
-</footer>
-
-</body>
-
+        <script src="script.js"></script>
+    </body>
 </html>
