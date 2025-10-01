@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
     text-decoration: none;
     border: none;
     outline: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -200,37 +200,51 @@ span {
 }
 
 @keyframes words {
-    0%, 20% {
+    0%,
+    20% {
         content: "CyberSec Analyst";
     }
-    21%, 40% {
+    21%,
+    40% {
         content: "Developer";
     }
-    41%, 60% {
+    41%,
+    60% {
         content: "C++ Engineer";
     }
-    61%, 80% {
+    61%,
+    80% {
         content: "Game Developer";
     }
-    81%, 100% {
+    81%,
+    100% {
         content: "Script Writer";
     }
 }
 
 /* Other Sections */
-#about, #experience, #projects, #contact {
+#about,
+#experience,
+#projects,
+#contact {
     background: linear-gradient(135deg, #1a1a1a 0%, #000 100%);
     border-top: 1px solid #333;
 }
 
-#about h2, #experience h2, #projects h2, #contact h2 {
+#about h2,
+#experience h2,
+#projects h2,
+#contact h2 {
     font-size: 3.5rem;
     color: #b74b4b;
     margin-bottom: 3rem;
     text-align: center;
 }
 
-.about-content, .experience-content, .projects-content, .contact-content {
+.about-content,
+.experience-content,
+.projects-content,
+.contact-content {
     max-width: 800px;
     margin: 0 auto;
 }
@@ -243,7 +257,8 @@ span {
 }
 
 /* Experience & Projects */
-.experience-item, .project-item {
+.experience-item,
+.project-item {
     background: rgba(183, 75, 75, 0.1);
     padding: 2rem;
     margin-bottom: 2rem;
@@ -252,4 +267,7 @@ span {
     transition: transform 0.3s ease;
 }
 
-.experience-item:hover, .project-item:
+.experience-item:hover,
+.project-item:hover {
+    transform: scale(1.05);
+}
