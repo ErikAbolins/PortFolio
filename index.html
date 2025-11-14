@@ -1,165 +1,142 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="styles.css" />
-    </head>
-    <body>
-        <header>
-            <a href="#" class="logo">Portfolio</a>
-            <nav>
-                <a href="#home" class="active">Home</a>
-                <a href="#about">About</a>
-                <a href="#experience">Experience</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </header>
 
-        <section class="home" id="home">
-            <div class="home-content">
-                <h3>Hi, I'm</h3>
-                <h1>John <span>Doe</span></h1>
-                <h3 class="typing-text">I am a <span></span></h3>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, I'm</h3>
+            <h1>Erik <span>Abolins</span></h1>
+            <h3 class="typing-text">I am a <span></span></h3>
+            <p>
+                Passionate developer with expertise in C++, C#, and game
+                development. I love creating efficient solutions and
+                learning new technologies to solve complex problems.
+            </p>
+            <div class="social-icons">
+                <a href="#" aria-label="LinkedIn">📧</a>
+                <a href="#" aria-label="GitHub">🐙</a>
+                <a href="#" aria-label="Twitter">🐦</a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>
+                I'm a passionate developer currently studying game
+                development with a strong foundation in multiple programming
+                languages. My journey started with Unity and C#, but I've
+                expanded my skills to include proper C++ development and web
+                technologies.
+            </p>
+            <p>
+                I believe in writing clean, efficient code and am always
+                eager to learn new technologies. Whether it's optimizing
+                game performance, or tackling complex algorithms, I enjoy the challenge of turning ideas
+                into reality.
+            </p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="experience-content">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Game Development Student</h3>
+                <h4>Current Institution | 2023 - Present</h4>
+                <ul>
+                    <li>
+                        Developing games using Unity and C# with focus on
+                        clean architecture
+                    </li>
+                    <li>
+                        Learning C++ for performance-critical applications
+                        and Unreal Engine
+                    </li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Personal Projects</h3>
+                <h4>Self-Directed Learning | 2022 - Present</h4>
+                <ul>
+                    <li>
+                        Transitioned from Unity's simplified C# to proper
+                        .NET development
+                    </li>
+                    <li>
+                        Mastered C++ fundamentals including memory
+                        management and OOP
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="projects-content">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>C++ Voting Simulation</h3>
                 <p>
-                    Passionate developer with expertise in C++, C#, and game
-                    development. I love creating efficient solutions and
-                    learning new technologies to solve complex problems.
+                    Built from scratch a plurality Voting simulation in C++ showcasing
+                    Vectors, BFS, 2D Array Grids, and pointers.
                 </p>
-                <div class="social-icons">
-                    <a href="#" aria-label="LinkedIn">📧</a>
-                    <a href="#" aria-label="GitHub">🐙</a>
-                    <a href="#" aria-label="Twitter">🐦</a>
-                </div>
-                <a href="#" class="btn">Download CV</a>
+                <a href="#" class="btn">View Project</a>
             </div>
-        </section>
-
-        <section id="about">
-            <div class="about-content">
-                <h2>About Me</h2>
+            <div class="project-item">
+                <h3>Unity Game Projects</h3>
                 <p>
-                    I'm a passionate developer currently studying game
-                    development with a strong foundation in multiple programming
-                    languages. My journey started with Unity and C#, but I've
-                    expanded my skills to include proper C++ development and web
-                    technologies.
+                    Various game development projects showcasing gameplay
+                    programming, UI design, and optimization techniques.
+                    Focus on clean code architecture and performance.
                 </p>
-                <p>
-                    I believe in writing clean, efficient code and am always
-                    eager to learn new technologies. Whether it's optimizing
-                    game performance, building web applications, or tackling
-                    complex algorithms, I enjoy the challenge of turning ideas
-                    into reality.
-                </p>
+                <a href="#" class="btn">View Project</a>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="experience">
-            <div class="experience-content">
-                <h2>Experience</h2>
-                <div class="experience-item">
-                    <h3>Game Development Student</h3>
-                    <h4>Current Institution | 2023 - Present</h4>
-                    <ul>
-                        <li>
-                            Developing games using Unity and C# with focus on
-                            clean architecture
-                        </li>
-                        <li>
-                            Learning C++ for performance-critical applications
-                            and Unreal Engine
-                        </li>
-                        <li>
-                            Building web portfolios from scratch using HTML,
-                            CSS, and JavaScript
-                        </li>
-                    </ul>
-                </div>
-                <div class="experience-item">
-                    <h3>Personal Projects</h3>
-                    <h4>Self-Directed Learning | 2022 - Present</h4>
-                    <ul>
-                        <li>
-                            Transitioned from Unity's simplified C# to proper
-                            .NET development
-                        </li>
-                        <li>
-                            Mastered C++ fundamentals including memory
-                            management and OOP
-                        </li>
-                        <li>
-                            Created multiple web applications and portfolio
-                            sites
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+    <section id="contact">
+        <div class="contact-content">
+            <h2>Contact Me</h2>
+            <p>
+                I'm always interested in discussing new opportunities,
+                collaborating on projects, or just talking about code. Feel
+                free to reach out!
+            </p>
+            <form>
+                <input name="name" type="text" class="feedback-input" placeholder="Name" />
+                <input name="email" type="text" class="feedback-input" placeholder="Email" />
+                <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+                <input type="submit" value="SUBMIT" />
+            </form>
+        </div>
+    </section>
 
-        <section id="projects">
-            <div class="projects-content">
-                <h2>Projects</h2>
-                <div class="project-item">
-                    <h3>Custom Portfolio Website</h3>
-                    <p>
-                        Built from scratch using HTML5, CSS3, and vanilla
-                        JavaScript. Features responsive design, smooth
-                        animations, and clean minimal aesthetic. No frameworks
-                        or templates
-                    </p>
-                    <a href="#" class="btn">View Project</a>
-                </div>
-                <div class="project-item">
-                    <h3>Unity Game Projects</h3>
-                    <p>
-                        Various game development projects showcasing gameplay
-                        programming, UI design, and optimization techniques.
-                        Focus on clean code architecture and performance.
-                    </p>
-                    <a href="#" class="btn">View Project</a>
-                </div>
-            </div>
-        </section>
+    <footer>
+        <p>&copy; 2025 Erik Abolins | All Rights Reserved</p>
+    </footer>
 
-        <section id="contact">
-            <div class="contact-content">
-                <h2>Contact Me</h2>
-                <p>
-                    I'm always interested in discussing new opportunities,
-                    collaborating on projects, or just talking about code. Feel
-                    free to reach out!
-                </p>
-                <form action="#" method="POST">
-                    <input
-                        type="text"
-                        name="name"
-                        placeholder="Your Name"
-                        required
-                    />
-                    <input
-                        type="email"
-                        name="email"
-                        placeholder="Your Email"
-                        required
-                    />
-                    <textarea
-                        name="message"
-                        placeholder="Your Message"
-                        rows="5"
-                        required
-                    ></textarea>
-                    <button type="submit" class="btn">Send Message</button>
-                </form>
-            </div>
-        </section>
+    <script src="script.js"></script>
+</body>
 
-        <footer>
-            <p>&copy; 2025 John Doe | All Rights Reserved</p>
-        </footer>
-
-        <script src="script.js"></script>
-    </body>
 </html>
