@@ -22,7 +22,7 @@
         });
 
         // Typing animation
-        const phrases = ["Systems Developer", "C++ Enthusiast", "Game Developer"];
+        const phrases = ["Systems Developer", "C# Enthusiast", "Game Developer"];
         let phraseIndex = 0;
         let charIndex = 0;
         let isDeleting = false;
